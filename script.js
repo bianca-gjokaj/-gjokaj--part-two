@@ -9,22 +9,22 @@ for (let i = 0; i < holesToday; i++) {
     totalPuts += numOfPuts;
 }
 
-if (holesToday == 3, totalPuts > 9) {
+if (holesToday == 3 & totalPuts > 9) {
     totalPar = totalPuts - 9;
     console.log("Nice try, " + yourName + "... Your total par was: +" + totalPar);
-} else if (holesToday == 3, totalPuts < 9) {
+} else if (holesToday == 3 & totalPuts < 9) {
     totalPar = 9 - totalPuts;
     console.log("Great job, " + yourName + "! Your total par was: -" + totalPar);
-} else if (holesToday == 3, totalPuts === 9) {
+} else if (holesToday == 3 & totalPuts === 9) {
     console.log("Good game, " + yourName + ". Your total par was: " + totalPar);
 }
 
-if (holesToday == 6, totalPuts > 18) {
+if (holesToday == 6 & totalPuts > 18) {
     totalPar = totalPuts - 18;
     console.log("Nice try, " + yourName + "... Your total par was: +" + totalPar);
-} else if (holesToday == 6, totalPuts < 18) {
+} else if (holesToday == 6 & totalPuts < 18) {
     totalPar = 18 - totalPuts;
     console.log("Great job, " + yourName + "! Your total par was: -" + totalPar);
-} else if (holesToday == 6, totalPuts === 18) {
+} else if (holesToday == 6 & totalPuts === 18) {
     console.log("Good game, " + yourName + ". Your total par was: " + totalPar);
 }
